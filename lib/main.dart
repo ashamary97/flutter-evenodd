@@ -1,3 +1,4 @@
+import 'package:evenorodd/screens/evenorodd.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -8,7 +9,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,7 +19,7 @@ class _HomeState extends State<Home> {
           title: Text("Even or Odd"),
           backgroundColor: Colors.green,
         ),
-        body:
+        body: Evenorodd()
       ),
     );
   }
